@@ -1,29 +1,16 @@
 {{ define "main" }}
 <section
   class="jumbotron text-center"
-  style="background: url('/images/clouds.jpg') 50% 75% no-repeat"
+  style="background: url('/images/banner.svg') no-repeat; background-position: center; background-size: cover;"
 >
   <div class="container">
-    <h1 class="announce my-2 display-1">Girton Spring Ball 2022</h1>
+    <img src="/images/gsb.svg" alt="Girton Spring Ball 2023!"> </img>
   </div>
 </section>
 <section>
   <div class="container">
     <div class="p-3 pb-md-4 mx-auto text-center">
-      <img
-        src="/images/logo.jpg"
-        class="rounded mb-2 mb-sm-4"
-        style="max-width: 50%"
-      />
       <p class="fs-5 mb-4">{{ $.Site.Params.description }}</p>
-      <div class="ratio ratio-16x9">
-        <iframe
-          src="https://drive.google.com/file/d/1cSV8tgt2quxQrRCt8N65cAMMvKyBemx3/preview"
-          width="1280"
-          height="720"
-          allow="autoplay"
-        ></iframe>
-      </div>
     </div>
   </div>
 </section>
