@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap');
-@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap");
+@import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
 
 .centered-header {
   max-width: 700px;
@@ -17,8 +17,13 @@ h1, h2, h3, h4, h5 {
   font-family: "Jost", sans-serif;
 }
 
+.funky {
+  color: rgb(47, 122, 192);
+  text-shadow: 3px 3px rgb(23, 43, 97);
+}
+
 .numbers {
-  font-family: 'Courier Prime', monospace;
+  font-family: "Courier Prime", monospace;
 }
 
 #title {
