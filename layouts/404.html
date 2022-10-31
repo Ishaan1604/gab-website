@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en-US" class="h-100">
-  {{ partial "head.html" . }}
-  <body class="h-100 d-flex align-items-center justify-content-center">
-    <main class ="container">
-      <p class="display-3">You tried to access a page that doesn't exist.</h1>
-      <p class="lead text-muted text-center">
-        To
-        <a
-          href="https://i.pinimg.com/originals/6a/ff/e7/6affe715379ae38e72dd430ca22e6f68.jpg"
-          >fix</a
-        >
-        this problem, simply don't.
-      </p>
-    </main>
+  {{- partial "head.html" . -}}
+  <body
+    class="text-center"
+    style="
+      background: url('/images/banner.svg') no-repeat;
+      background-position: center;
+      background-size: cover;
+    "
+  >
+    <section
+      style="padding-top: 45vh; color: rgb(238, 239, 240);"
+    >
+      <h1
+        class="display-1 fw-bold"
+        id="tickets"
+        style="text-shadow: 3px 3px rgb(23, 43, 97)"
+      >
+        404 Not Found!
+      </h1>
+      <p>We couldn't find the page you were looking for :(</p>
+    </section>
   </body>
+  {{- partial "scripts.html" . -}}
 </html>
