@@ -22,10 +22,6 @@ h1, h2, h3, h4, h5 {
   text-shadow: 3px 3px rgb(23, 43, 97);
 }
 
-.numbers {
-  font-family: "Courier Prime", monospace;
-}
-
 #title {
   max-width: 80%;
 }
@@ -33,14 +29,6 @@ h1, h2, h3, h4, h5 {
 .jumbotron {
   padding-top: 5vh;
   padding-bottom: 5vh;
-}
-
-.announce {
-  color: rgb(73, 1, 39);
-  text-shadow: 3px 3px rgb(210, 124, 2);
-  font-family: "Jost", sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
 }
 
 .todo {
