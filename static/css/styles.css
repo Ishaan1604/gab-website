@@ -23,12 +23,9 @@ h1, h2, h3, h4, h5 {
 }
 
 #title {
-  max-width: 80%;
-}
-
-.jumbotron {
-  padding-top: 5vh;
-  padding-bottom: 5vh;
+  max-width: 30vw;
+  max-height: 14vh;
+  padding: 3vh 3vw;
 }
 
 .todo {
