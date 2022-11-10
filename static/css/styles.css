@@ -31,3 +31,8 @@ h1, h2, h3, h4, h5 {
 .todo {
   color: red;
 }
+
+.image-block {
+  height: 30vh;
+  background-size: cover;
+}
