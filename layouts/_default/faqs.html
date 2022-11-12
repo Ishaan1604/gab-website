@@ -1,0 +1,35 @@
+{{ define "main" }}
+<section>
+  <div class="centered-header pb-md-4 mx-auto text-center">
+    <h1
+      class="display-4 fw-bold funky"
+      id="faqs"
+    >
+      FAQs
+    </h1>
+  </div>
+  <div class="container px-4">
+    <h4 class="fw-bold mb-0 py-4">
+      General Questions:
+    </h4>
+    <div class="accordion" id="faqs-accordion">
+      {{ $i := 0 }} 
+      {{ range $.Site.Data.general }} 
+      {{ $i = add $i 1 }} 
+      {{ partial "faq.html" (dict "ctx" . "i" $i) }} 
+      {{ end }}
+    </div>
+    <h4 class="fw-bold mb-0 py-4">
+      Accessibility Questions:
+    </h4>
+    <div class="accordion" id="faqs-accordion">
+      {{ $i := 0 }} 
+      {{ range $.Site.Data.access }} 
+      {{ $i = add $i 1 }} 
+      {{ partial "faq.html" (dict "ctx" . "i" $i) }} 
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}
