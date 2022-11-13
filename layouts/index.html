@@ -30,10 +30,9 @@
     background: url('/images/banner.svg') no-repeat;
     background-position: center;
     background-size: cover;
-    height: 50vh;
   "
 >
-<div style="height: 5vh"></div>
+  <div style="height: 5vh"></div>
   <div
     class="image-block"
     style="
@@ -42,6 +41,7 @@
       height: 40vh;
     "
   ></div>
+  <div style="height: 5vh"></div>
 </div>
 <div style="height: 3rem"></div>
 <section>
@@ -133,24 +133,14 @@
   </div>
 </section>
 {{ partial "spacer" . }}
-<section>
-  <div class="centered-header pb-md-4 mx-auto text-center">
-    <h1
-      class="display-4 fw-bold funky"
-      id="faqs"
-    >
-      FAQs
-    </h1>
-  </div>
-  <div class="container px-4 py-4">
-    <div class="accordion" id="faqs-accordion">
-      {{ $i := 0 }} 
-      {{ range $.Site.Data.faqs }} 
-      {{ $i = add $i 1 }} 
-      {{ partial
-      "faq.html" (dict "ctx" . "i" $i) }} 
-      {{ end }}
-    </div>
+<section class="container" style="max-width: 90ch">
+  <div class="centered-header mx-auto text-center">
+    <h4 class="fw-bold mb-0">
+      Find us on Social Media!
+    </h4>
+    <h2 class="fw-bold funky">
+      <i class="bi bi-instagram"></i>
+    </h2>
   </div>
 </section>
 {{ end }}
