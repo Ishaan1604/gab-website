@@ -1,16 +1,20 @@
+{{/* 
+  "faq-{{ md5 .ctx.qtn }}" is used to allow multiple FAQs
+  on one page
+*/}}
 <div class="accordion-item">
   <h2 class="accordion-header">
     <button
       class="accordion-button collapsed fw-bold"
       type="button"
       data-bs-toggle="collapse"
-      data-bs-target="#faq-{{ .i }}"
+      data-bs-target="#faq-{{ md5 .ctx.qtn }}"
     >
       {{ .ctx.qtn }}
     </button>
   </h2>
   <div
-    id="faq-{{ .i }}"
+    id="faq-{{ md5 .ctx.qtn }}"
     class="accordion-collapse collapse"
     data-bs-parent="#faqs-accordion"
   >
