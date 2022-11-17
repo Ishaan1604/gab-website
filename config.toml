@@ -1,6 +1,6 @@
 baseURL = 'https://www.girtonball.com/'
 languageCode = 'en-us'
-title = 'GSB 2022'
+title = 'GSB 2023'
 
 disableKinds = ["taxonomy", "term"]
 
