@@ -29,6 +29,16 @@
       {{ partial "faq.html" (dict "ctx" . "i" $i) }} 
       {{ end }}
     </div>
+    <h4 class="fw-bold mb-0 py-4">
+      Diversity and Sustainability Questions
+    </h4>
+    <div class="accordion" id="faqs-accordion">
+      {{ $i := 0 }} 
+      {{ range $.Site.Data.diversity }} 
+      {{ $i = add $i 1 }} 
+      {{ partial "faq.html" (dict "ctx" . "i" $i) }} 
+      {{ end }}
+    </div>
   </div>
 </section>
 
