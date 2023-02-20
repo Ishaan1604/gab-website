@@ -1,17 +1,10 @@
 {{ define "main" }}
-<section>
+<section class="container px-4 py-4" style="max-width: 90ch">
   <div class="centered-header pb-md-4 mx-auto text-center">
-    <h1
-      class="display-4 fw-bold funky"
-      id="faqs"
-    >
-      FAQs
-    </h1>
+    <h1 class="display-4 fw-bold funky" id="faqs" > FAQs </h1>
   </div>
   <div class="container px-4">
-    <h4 class="fw-bold mb-0 py-4">
-      General Questions
-    </h4>
+    <h4 class="fw-bold mb-0 py-4"> General Questions </h4>
     <div class="accordion" id="faqs-accordion">
       {{ $i := 0 }} 
       {{ range $.Site.Data.general }} 
@@ -19,9 +12,7 @@
       {{ partial "faq.html" (dict "ctx" . "i" $i) }} 
       {{ end }}
     </div>
-    <h4 class="fw-bold mb-0 py-4">
-      Accessibility Questions
-    </h4>
+    <h4 class="fw-bold mb-0 py-4"> Accessibility Questions </h4>
     <div class="accordion" id="faqs-accordion">
       {{ $i := 0 }} 
       {{ range $.Site.Data.access }} 
@@ -29,9 +20,7 @@
       {{ partial "faq.html" (dict "ctx" . "i" $i) }} 
       {{ end }}
     </div>
-    <h4 class="fw-bold mb-0 py-4">
-      Diversity and Sustainability Questions
-    </h4>
+    <h4 class="fw-bold mb-0 py-4"> Diversity and Sustainability Questions </h4>
     <div class="accordion" id="faqs-accordion">
       {{ $i := 0 }} 
       {{ range $.Site.Data.diversity }} 
@@ -39,6 +28,71 @@
       {{ partial "faq.html" (dict "ctx" . "i" $i) }} 
       {{ end }}
     </div>
+    <h4 class="fw-bold mb-0 py-4"> Access Statement </h4>
+    <ol>
+    <li>
+      <p>
+       There will be wheelchair access into the ball, the ball will be all
+on one level with step free access and ramps where necessary. We will try and
+ensure that as many ents and fairground rides as possible are made accessible.
+      </p>
+    </li>
+    <li>
+      <p>
+       There will be blue badge holder parking available on site, but this must
+be pre-booked.
+      </p>
+    </li>
+    <li>
+      <p>
+       There will be seating available in each area of the ball, and on request
+in the queue.
+      </p>
+    </li>
+    <li>
+      <p>
+       There will be an accessible toilet and a gender neutral toilet, both of
+which will be signposted. There will also be priority toilet access for those
+with accessibility requirements (e.g. IBS).
+      </p>
+    </li>
+    <li>
+      <p>
+       There are hearing loops available in all public college rooms.
+      </p>
+    </li>
+    <li>
+      <p>
+       There will be a designated quiet space.
+      </p>
+    </li>
+    <li>
+      <p>
+       There will be soft drinks available throughout the ball.
+      </p>
+    </li>
+    <li>
+      <p>
+       Please get in contact to discuss any food allergies/requirements. We
+will try to cater to as many dietary requirements as possible.
+      </p>
+    </li>
+    <li>
+      <p>
+       If you need an Auto Adrenaline Injector, please bring one with you on
+the night as the college does not keep a stock of these.
+      </p>
+    </li>
+    <li>
+      <p>
+       If you have any questions about accessibility at GSB2023 you can contact
+      our Accessibility lead via <a href="mailto:gsb23accessibility@gmail.com">email</a>, - your
+      information will be not be shared, except with the colleges disability liaison
+      officer (and other staff members, with your permission, where this is deemed
+      necessary).
+      </p>
+    </li>
+    </ol>
   </div>
 </section>
 
