@@ -1,55 +1,23 @@
 {{ define "main" }}
 <section>
   <div class="container">
-  <div class="centered-header pb-md-4 mx-auto text-center">
-    <h4 class="fw-bold mb-0 py-1">
-      The Girton Spring Ball committee presents...
-    </h4>
-    <h1
-      class="display-4 fw-bold funky animate__animated animate__slideInUp"
-      id="tickets"
-    >
-    Beyond the Skies
-    </h1>
-  </div>
-    <div class="p-3 pb-md-4 mx-auto text-center">
-      <div class="ratio ratio-16x9">
-        <iframe
-          src="https://drive.google.com/file/d/1oLf3tbD9W8lRCu_bii-u04YJ7yoTovmO/preview"
-          width="1280"
-          height="720"
-          allow="autoplay"
-        ></iframe>
-      </div>
+    <div class="centered-header pb-md-4 mx-auto text-center">
+      <h4 class="fw-bold mb-0 py-1">
+        The Girton Spring Ball committee presents...
+      </h4>
+      <h1 class="display-4 fw-bold funky animate__animated animate__slideInUp" id="tickets" >
+      Beyond the Skies
+      </h1>
     </div>
   </div>
+  <div class="container-fluid">
+   <img src="map-with-events.png" class="img-fluid animate__zoomIn" alt="Map of Venue"> </img>
+  </div>
 </section>
-<div style="height: 2rem"></div>
-<div
-  style="
-    background: url('/images/banner.svg') no-repeat;
-    background-position: center;
-    background-size: cover;
-  "
->
-  <div style="height: 5vh"></div>
-  <div
-    class="image-block"
-    style="
-      background:url(/images/survivors.webp) no-repeat center fixed;
-      background-size: cover;
-      height: 40vh;
-    "
-  ></div>
-  <div style="height: 5vh"></div>
-</div>
 <div style="height: 3rem"></div>
 <section>
   <div class="centered-header pb-md-4 mx-auto text-center">
-    <h1
-      class="display-4 fw-bold funky"
-      id="tickets"
-    >
+    <h1 class="display-4 fw-bold funky" id="tickets" >
       Ticket Information
     </h1>
   </div>
@@ -58,43 +26,32 @@
       <div class="col d-flex align-items-start">
         <div>
           <h4 class="fw-bold mb-0">
+            <i class="bi bi-universal-access"></i> Accessibility
+          </h4>
+          <p>
+            Download our access statement 
+            <a href="/docs/GSB Preliminary Access Statement.pdf">here</a>.
+          </p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div>
+          <h4 class="fw-bold mb-0">
             <i class="bi bi-briefcase"></i> Where and When?
           </h4>
           <p>
-            The spring ball will be on Friday 17th March, from 9pm to 5am at
-            Girton College.
+            Friday 17th March, from 9pm to 5am at Girton College.
           </p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <div>
           <h4 class="fw-bold mb-0">
-            <i class="bi bi-ticket-detailed me-2"></i> Ticket Release
+            <i class="bi bi-map"></i> What's happening?
           </h4>
           <p>
-            Tickets have sold out, but you can join the waiting
-            list by emailing 
-            <a href="mailto:it@girtonball.com">it@girtonball.com</a>
-          </p>
-        </div>
-      </div>
-      <div class="col d-flex align-items-start">
-        <div>
-          <h4 class="fw-bold mb-0">
-            <i class="bi-people me-2"></i>Name Changes
-          </h4>
-          <p>
-            Name changes can be purchased through the tickting platform and
-            will require a £15 administration fee.
-          </p>
-        </div>
-      </div>
-      <div class="col d-flex align-items-start">
-        <div>
-          <h4 class="fw-bold mb-0"><i class="bi-cash me-2"></i>Refunds</h4>
-          <p>
-            Tickets to the Spring Ball are non-refundable. Please read our full
-            Terms and Conditions before buying.
+            Check out our 
+            <a href="/docs/GSB Programme.pdf">programme</a>
           </p>
         </div>
       </div>
@@ -106,29 +63,9 @@
           <p>Read our full terms <a href="/legal/">here</a>.</p>
         </div>
       </div>
-      <div class="col d-flex align-items-start">
-        <div>
-          <h4 class="fw-bold mb-0">
-            <i class="bi bi-question-circle-fill me-2"></i>More information
-          </h4>
-          <p>
-            Any further queries can be directed to our committee members
-            at 
-            <a href="mailto:committee@girtonball.com">committee@girtonball.com</a>
-          </p>
-        </div>
-      </div>
     </div>
   </section>
 <section>
-    <div class="d-grid col-6 mx-auto">
-      <a
-        class="btn btn-primary btn-lg"
-        style="background-color: rgb(23, 43, 97);"
-        href="https://ticketing.girtonball.com"
-        >Get your ticket!</a
-      >
-    </div>
   </div>
 </section>
 {{ partial "spacer" . }}
