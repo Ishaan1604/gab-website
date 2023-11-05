@@ -1,6 +1,6 @@
 # gsb-web
 
-Home of the 2022 Girton Spring Ball's website. It uses the Hugo static site generator written in Go.
+Home of the 2023 Girton Spring Ball's website. It uses the Hugo static site generator written in Go.
 
 ## Deployment
 
