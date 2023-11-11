@@ -1,112 +1,112 @@
 - name: Daniel Sandell
   position: Guest Experience President
-  email: somethingorother@girtonspringball.com
+  email: ds2031@cam.ac.uk
   icon: bi-balloon
   img: x
 - name: Emily Clare-Hunt
   position: Logistics President
-  email: somethingorother@girtonspringball.com
+  email: ekc37@cam.ac.uk
   icon: bi-truck
   img: x
 - name: Jude Lipson
   position: Junior Treasurer
-  email: somethingorother@girtonspringball.com
+  email: jl2324@cam.ac.uk
   icon: bi-piggy-bank
   img: x
-
-- name: Gabriel Kennedy
-  position: Infrastructure and Logistics
-  email: somethingorother@girtonspringball.com
-  icon: bi-house
+- name: Lewis Wilkinson
+  position: Food and Drink
+  email: foodanddrink@girtonspringball.com
+  icon: bi-cup-hot
   img: x
-- name: Alex Upshall
-  position: Infrastructure and Logistics
-  email: somethingorother@girtonspringball.com
-  icon: bi-house
+- name: June See Chong
+  position: Food and Drink
+  email: foodanddrink@girtonspringball.com
+  icon: bi-cup-hot
   img: x
-- name: Oyare Aneju
-  position: Safety and Security
-  email: somethingorother@girtonspringball.com
-  icon: bi-life-preserver
+- name: Penelope Slater
+  position: Ents
+  email: ents@girtonspringball.com
+  icon: bi-star
+  img: x
+- name: Jessica Blanchflower
+  position: Ents
+  email: ents@girtonspringball.com
+  icon: bi-star
+  img: x
+- name: Isabella McLeod
+  position: Music
+  email: music@girtonspringball.com
+  icon: bi-music-note-beamed
+  img: x
+- name: Adam Titcombe
+  position: Music
+  email: music@girtonspringball.com
+  icon: bi-music-note-beamed
+  img: x
+- name: Lauren Prince
+  position: Publicity
+  email: committee@girtonspringball.com
+  icon: bi-instagram
+  img: x
+- name: Elliot Hamilton-Croft
+  position: Graphics
+  email: eh717@girtonspringball.com
+  icon: bi-image
+  img: x
+- name: Maddy Guha
+  position: Graphics
+  email: mg2078@girtonspringball.com
+  icon: bi-image
   img: x
 - name: Yuvraj Dubey
   position: IT and Ticketing
-  email: somethingorother@girtonspringball.com
+  email: it@girtonspringball.com
   icon: bi-terminal
   img: x
 - name: Peter Jackson
   position: IT and Ticketing
-  email: somethingorother@girtonspringball.com
+  email: it@girtonspringball.com
   icon: bi-terminal
+  img: x
+- name: Gabriel Kennedy
+  position: Infrastructure and Logistics
+  email: committee@girtonspringball.com
+  icon: bi-house
+  img: x
+- name: Alex Upshall
+  position: Infrastructure and Logistics
+  email: committee@girtonspringball.com
+  icon: bi-house
+  img: x
+- name: Oyare Aneju
+  position: Safety and Security
+  email: committee@girtonspringball.com
+  icon: bi-life-preserver
   img: x
 - name: Hattie Maddock
   position: Personnel
-  email: somethingorother@girtonspringball.com
+  email: committee@girtonspringball.com
   icon: bi-person-plus
   img: x
 - name: Isla Hammond
   position: Diversity and Sustainability
-  email: somethingorother@girtonspringball.com
+  email: committee@girtonspringball.com
   icon: bi-clipboard-heart
   img: x
 
 - name: Luca Beltrame
   position: Aesthetics
-  email: somethingorother@girtonspringball.com
+  email: committee@girtonspringball.com
   icon: bi-tree
   img: x
 - name: Fiona Peddie
   position: Aesthetics
-  email: somethingorother@girtonspringball.com
+  email: committee@girtonspringball.com
   icon: bi-tree
   img: x
 - name: Amelia Treasure
   position: Aesthetics
-  email: somethingorother@girtonspringball.com
+  email: committee@girtonspringball.com
   icon: bi-tree
   img: x
-- name: Lewis Wilkinson
-  position: Food and Drink
-  email: somethingorother@girtonspringball.com
-  icon: bi-cup-hot
-  img: x
-- name: June See Chong
-  position: Food and Drink
-  email: somethingorother@girtonspringball.com
-  icon: bi-cup-hot
-  img: x
-- name: Penelope Slater
-  position: Ents
-  email: somethingorother@girtonspringball.com
-  icon: bi-star
-  img: x
-- name: Jessica Blanchflower
-  position: Ents
-  email: somethingorother@girtonspringball.com
-  icon: bi-star
-  img: x
-- name: Isabella McLeod
-  position: Music
-  email: somethingorother@girtonspringball.com
-  icon: bi-music-note-beamed
-  img: x
-- name: Adam Titcombe
-  position: Music
-  email: somethingorother@girtonspringball.com
-  icon: bi-music-note-beamed
-  img: x
-- name: Lauren Prince
-  position: Publicity
-  email: somethingorother@girtonspringball.com
-  icon: bi-instagram
-  img: x
-- name: Elliot Hamilton-Croft
-  position: Graphics
-  email: somethingorother@girtonspringball.com
-  icon: bi-image
-  img: x
-- name: Maddy Guha
-  position: Graphics
-  email: somethingorother@girtonspringball.com
-  icon: bi-image
-  img: x
+
