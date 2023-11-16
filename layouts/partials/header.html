@@ -1,6 +1,6 @@
 <div
   style="
-    background: url('/images/logo-with-background-24.png') no-repeat;
+    background: url('/images/grass.png') no-repeat;
     background-position: bottom;
     background-size: cover;
   "
@@ -10,27 +10,55 @@
       class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
       style="color: white"
     >
-      <a href="/" class="d-flex mb-3 p-1 mb-md-0 me-md-auto">
-        <img src="/images/gsb.svg" id="title" alt="Girton Spring Ball 2024!" />
-      </a>
-
-      <ul class="nav nav-pills" style="margin-top: auto; margin-bottom: auto">
-        <li class="nav-item">
-          <a href="/legal" class="nav-link" style="color: white"
-            ><i class="bi bi-shield"></i> Legal</a
-          >
-        </li>
-        <li class="nav-item">
-          <a href="/faqs" class="nav-link" style="color: white"
-            ><i class="bi bi-chat-left-text"></i> FAQs</a
-          >
-        </li>
-        <li class="nav-item">
-          <a href="/committee" class="nav-link" style="color: white"
-            ><i class="bi bi-people"></i> Committee</a
-          >
-        </li>
-      </ul>
+      <div class="row w-100 align-items-center">
+        <div class="col">
+          <a href="/" class="d-flex mb-3 p-1 mb-md-0 me-md-auto">
+            <img src="/images/gsb.svg" id="title" alt="Girton Spring Ball 2024!" />
+          </a>
+        </div>
+        <div class="col-5">
+          <ul class="nav nav-pills d-flex justify-content-center" style="margin-top: auto; margin-bottom: auto">
+            <li class="nav-item">
+              <a href="/legal" class="nav-link" style="color: white"
+                ><i class="bi bi-shield"></i> Legal
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="/faqs" class="nav-link" style="color: white"
+                ><i class="bi bi-chat-left-text"></i> FAQs
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="/committee" class="nav-link" style="color: white"
+                ><i class="bi bi-people"></i> Committee
+              </a>
+            <!--<li class="nav-item">
+              <a href="/" class="nav-link" style="color: white"
+                ><i class="bi bi-ticket-detailed"></i> Tickets
+              </a>
+            </li>-->
+            <!--<li class="nav-item">
+              <a href="{% url 'worker_application' %}" class="nav-link text-light">
+                <i class="bi bi-screwdriver me-2"></i> Working
+              </a>
+            </li>-->
+          </ul>
+        </div>
+        <div class="col">
+          <ul class="float-end nav nav-pills" style="margin-top: auto; margin-bottom: auto">
+            <li class="nav-item">
+              <a href="https://www.facebook.com/girtonspringball2024" class="nav-link" style="color: white; font-size: 30px;"
+                ><i class="bi bi-facebook"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://www.instagram.com/girtonspringball2024/" class="nav-link" style="color: white; font-size: 30px;"
+                ><i class="bi bi-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
   </div>
 </div>

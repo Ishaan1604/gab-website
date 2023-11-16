@@ -10,15 +10,15 @@
       </h1>
     </div>
   </div>
-  <div class="container-fluid">
-   <img src="poster-with-logo-24.png" class="img-fluid px-5 animate__zoomIn" alt="Launch Poster"> </img>
+  <div class="container-lg">
+   <img src="poster-with-logo-24.png" class="img-fluid px-3 animate__zoomIn" alt="Launch Poster"> </img>
   </div>
 </section>
 <div style="height: 3rem"></div>
 <section>
   <div class="centered-header pb-md-4 mx-auto text-center">
-    <h1 class="display-4 fw-bold funky" id="tickets" >
-      Ticket Information
+    <h1 class="display-4 fw-bold funky" id="info" >
+      General Information
     </h1>
   </div>
   <div class="container px-4 py-4">
@@ -83,25 +83,166 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 <section>
   </div>
 </section>
 {{ partial "spacer" . }}
-<section class="container" style="max-width: 90ch">
-  <div class="centered-header mx-auto text-center">
-    <h4 class="fw-bold mb-0">
-      Find us on Social Media!
-    </h4>
-    <h2 class="fw-bold funky">
-      <a href="https://www.instagram.com/girtonspringball2024/" class="p-2 funky" style="text-decoration: none;">
-        <i class="bi bi-instagram"></i>
-      </a>
 
-      <a href="https://www.facebook.com/girtonspringball2024" class="p-2 funky" style="text-decoration: none;">
-        <i class="bi bi-facebook"></i>
-      </a>
-    </h2>
+<section class="container-lg">
+    <div class="centered-header mx-auto text-center">
+      <h1 class="display-4 fw-bold funky" id="video" >
+        Last Year's Ball
+      </h1>
+    </div>
+      <div class="embed-responsive embed-responsive-16by9 p-3 " >
+        <video class="embed-responsive-item w-100" controls><source src="/video/gsb23.mp4" type="video/mp4">Your browser does not support this video</video>
+      </div>
+
+</section>
+{{ partial "spacer" . }}
+<!-- TODO make these automatically generated from ticketing fixtures, if possible -->
+<!-- TODO make the text centred on small screens -->
+<section>
+  <div class="centered-header pb-md-4 mx-auto text-center">
+    <h1 class="display-4 fw-bold funky" id="tickets" >
+      Ticket Types
+    </h1>
+  </div>
+  <div class="container px-4 py-4">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-5" style="text-align: center;">
+      <div class="col d-flex">
+        <div class="justify-content-center">
+          <h4 class="fw-bold mb-0">
+            Bursary Ticket
+          </h4>
+          <p>Standard: £105</p>
+          <p>Queue-Jump: £115</p>
+          <p>
+            Available to Girton students on the Cambridge Bursary Scheme and applicants for financial support in Michaelmas 2023. Only available until 23rd of November
+          </p>
+        </div>
+      </div>
+      <div class="col d-flex">
+        <div class="justify-content-center">
+          <h4 class="fw-bold mb-0">
+            Girton Ticket
+          </h4>
+          <p>Standard: £145</p>
+          <p>Queue-Jump: £160</p>
+          <p>
+            Available to students, fellows, and staff at Girton College.
+          </p>
+        </div>
+      </div>
+      <div class="col d-flex">
+        <div class="justify-content-center">
+          <h4 class="fw-bold mb-0">
+            Guest Ticket
+          </h4>
+          <p>Standard: £160</p>
+          <p>Queue-Jump: £175</p>
+          <p>
+            Available to guests of students, fellows, and staff at Girton College.
+          </p>
+        </div>
+      </div>
+      <div class="col d-flex">
+        <div class="justify-content-center">
+          <h4 class="fw-bold mb-0">
+            Alumni Ticket
+          </h4>
+          <p>Standard: £160</p>
+          <p>Queue-Jump: £175</p>
+          <p>
+            Available to all alumni of Girton College.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ partial "spacer" . }}
+<!-- TODO make these automatically generated from data -->
+<section>
+  <div class="centered-header pb-md-4 mx-auto text-center">
+    <h1 class="display-4 fw-bold funky" id="timeline" >
+      Timeline
+    </h1>
+  </div>
+  <div class="container px-4 py-4">
+    <div class="row row-cols-2 g-5 align-items-end" >
+      <div class="col justify-content-end" style="border-bottom: 3px solid #2fc05b; margin-bottom:10px;">
+        <h4 class="float-start ">2nd November</h4>
+        <h4 class="float-end ">Launch Event</h4>
+      </div>
+      <div class="col d-flex">
+        <div style="text-align: centre;">
+          <h4 class="fw-bold mb-0">
+            Launch Event and Theme Reveal
+          </h4>
+          <p>2nd November, 7:30 PM </p>
+        </div>
+      </div>
+    </div>
+    <div class="row row-cols-2 g-5 align-items-end" >
+      <div class="col justify-content-end" style="border-bottom: 3px solid #2fc05b; margin-bottom:10px;">
+        <h4 class="float-start ">16th November</h4>
+        <h4 class="float-end ">Girton Release</h4>
+      </div>
+      <div class="col d-flex">
+        <div style="text-align: centre;">
+          <h4 class="fw-bold mb-0">
+            Girton Ticket Release
+          </h4>
+          <p>16th November, 6:00 PM - available to current members of Girton College (students, fellows, and staff)</p>
+        </div>
+      </div>
+    </div>
+    <div class="row row-cols-2 g-5 align-items-end" >
+      <div class="col justify-content-end" style="border-bottom: 3px solid #2fc05b; margin-bottom:10px;">
+        <h4 class="float-start ">23rd November</h4>
+        <h4 class="float-end ">Guest Release</h4>
+      </div>
+      <div class="col d-flex">
+        <div style="text-align: centre;">
+          <h4 class="fw-bold mb-0">
+            Guest Ticket Release
+          </h4>
+          <p>23rd November, 6:00 PM - available to guests of current members of Girton College. Each Girton ticket holder can purchase up to two guest tickets. </p>
+        </div>
+      </div>
+    </div>
+    <div class="row row-cols-2 g-5 align-items-end" >
+      <div class="col justify-content-end" style="border-bottom: 3px solid #2fc05b; margin-bottom:10px;">
+        <h4 class="float-start ">25th November</h4>
+        <h4 class="float-end ">Alumni Release</h4>
+      </div>
+      <div class="col d-flex">
+        <div style="text-align: centre;">
+          <h4 class="fw-bold mb-0">
+            Alumni Ticket Release
+          </h4>
+          <p>25th November, 6:00 PM - released to alumni of Girton College. Each alumni ticket holder can purchase one guest ticket.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row row-cols-2 g-5 align-items-end" >
+      <div class="col justify-content-end" style="border-bottom: 3px solid #2fc05b; margin-bottom:10px;">
+        <h4 class="float-start ">15th March</h4>
+        <h4 class="float-end ">Girton Spring Ball</h4>
+      </div>
+      <div class="col d-flex">
+        <div style="text-align: centre;">
+          <h4 class="fw-bold mb-0">
+            Girton Spring Ball
+          </h4>
+          <p>15th March, 9:00 PM - those with queue-jump tickets will be given
+ priority entry.</p>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 {{ end }}

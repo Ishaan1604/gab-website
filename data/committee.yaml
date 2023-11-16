@@ -43,6 +43,21 @@
   email: music@girtonspringball.com
   icon: bi-music-note-beamed
   img: x
+- name: Luca Beltrame
+  position: Aesthetics
+  email: committee@girtonspringball.com
+  icon: bi-tree
+  img: x
+- name: Fiona Peddie
+  position: Aesthetics
+  email: committee@girtonspringball.com
+  icon: bi-tree
+  img: x
+- name: Amelia Treasure
+  position: Aesthetics
+  email: committee@girtonspringball.com
+  icon: bi-tree
+  img: x
 - name: Lauren Prince
   position: Publicity
   email: committee@girtonspringball.com
@@ -50,12 +65,12 @@
   img: x
 - name: Elliot Hamilton-Croft
   position: Graphics
-  email: eh717@girtonspringball.com
+  email: committee@girtonspringball.com
   icon: bi-image
   img: x
 - name: Maddy Guha
   position: Graphics
-  email: mg2078@girtonspringball.com
+  email: committee@girtonspringball.com
   icon: bi-image
   img: x
 - name: Yuvraj Dubey
@@ -92,21 +107,5 @@
   position: Diversity and Sustainability
   email: committee@girtonspringball.com
   icon: bi-clipboard-heart
-  img: x
-
-- name: Luca Beltrame
-  position: Aesthetics
-  email: committee@girtonspringball.com
-  icon: bi-tree
-  img: x
-- name: Fiona Peddie
-  position: Aesthetics
-  email: committee@girtonspringball.com
-  icon: bi-tree
-  img: x
-- name: Amelia Treasure
-  position: Aesthetics
-  email: committee@girtonspringball.com
-  icon: bi-tree
   img: x
 
