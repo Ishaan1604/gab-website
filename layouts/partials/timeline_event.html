@@ -1,0 +1,14 @@
+<div class="row row-cols-2 g-5 align-items-end" >
+  <div class="col justify-content-end" style="border-bottom: 3px solid #2fc05b; margin-bottom:10px;">
+    <h4 class="float-start ">{{ .ctx.date }}</h4>
+    <h4 class="float-end ">{{ .ctx.title_short }}</h4>
+  </div>
+  <div class="col d-flex">
+    <div style="text-align: centre;">
+      <h4 class="fw-bold mb-0">
+        {{ .ctx.title_long }}
+      </h4>
+      <p>{{ .ctx.details }} </p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+<div class="col d-flex justify-content-center custom-borders-inbetween" style="margin-bottom:10px;">
+    <div>
+        <h4 class="fw-bold mb-0">
+                {{ .ctx.name }} Ticket
+        </h4>
+            <p>Standard: £{{ .ctx.std_price }}</p>
+            <p>Queue-Jump: £{{ .ctx.queuejump_price }}</p>
+            <p>
+                {{ .ctx.description }}
+            </p>
+    </div>
+  </div>
