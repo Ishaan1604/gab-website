@@ -7,6 +7,8 @@
         {{- block "main" . }}{{- end }}
         </main>
         {{- partial "footer.html" . -}}
+        <script defer src='https://static.cloudflareinsights.com/beacon.min.js'
+            data-cf-beacon='{"token": "b44e8ffd3ef84088a0639127e1a32198"}'></script><!-- End Cloudflare Web Analytics -->
     </body>
     {{- partial "scripts.html" . -}}
 </html>
