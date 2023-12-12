@@ -33,13 +33,38 @@ p {
 }
 a {
     color: #bcbefa;
+    &:hover {
+        color: #b37df4;
+    }
 }
 
-.funky {
+ul {
+    list-style: none;
+    font-family: "Playfair Display", serif;
+    color: #ffffff;
+}
 
+li::marker {
+    font-family: "Playfair Display", serif;
+    color: #ffffff;
 }
 
 
+.btn-primary {
+    background-color: #bcbefa;
+    border-color: #bcbefa;
+    &:hover {
+        background-color: #b37df4;
+        border-color: #b37df4;
+    }
+}
+
+.accordion-body {
+    font-family: "Playfair Display", serif;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #bcbefa;
+}
 
 #title {
   max-width: 30vw;
@@ -47,8 +72,10 @@ a {
   padding: 2vh 2vw;
 }
 
-.custom-borders-inbetween:not(:last-child) {
-    border-right: 3px solid #ffffff;
+.custom-borders-inbetween{
+    border-right: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+
 }
 
 .todo {

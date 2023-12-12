@@ -14,12 +14,12 @@
   icon: bi-piggy-bank
   img: x
 - name: Lewis Wilkinson
-  position: Food and Drink
+  position: Food & Drink
   email: foodanddrink@girtonspringball.com
   icon: bi-cup-hot
   img: x
 - name: June See Chong
-  position: Food and Drink
+  position: Food & Drink
   email: foodanddrink@girtonspringball.com
   icon: bi-cup-hot
   img: x
@@ -74,27 +74,27 @@
   icon: bi-image
   img: x
 - name: Yuvraj Dubey
-  position: IT and Ticketing
+  position: IT & Ticketing
   email: it@girtonspringball.com
   icon: bi-terminal
   img: x
 - name: Peter Jackson
-  position: IT and Ticketing
+  position: IT & Ticketing
   email: it@girtonspringball.com
   icon: bi-terminal
   img: x
 - name: Gabriel Kennedy
-  position: Infrastructure and Logistics
+  position: Infrastructure & Logistics
   email: committee@girtonspringball.com
   icon: bi-house
   img: x
 - name: Alex Upshall
-  position: Infrastructure and Logistics
+  position: Infrastructure & Logistics
   email: committee@girtonspringball.com
   icon: bi-house
   img: x
 - name: Oyare Aneju
-  position: Safety and Security
+  position: Safety & Security
   email: committee@girtonspringball.com
   icon: bi-life-preserver
   img: x
@@ -104,8 +104,8 @@
   icon: bi-person-plus
   img: x
 - name: Isla Hammond
-  position: Diversity and Sustainability
-  email: committee@girtonspringball.com
+  position: Diversity & Sustainability
+  email: gsb24accessibility@gmail.com
   icon: bi-clipboard-heart
   img: x
 
