@@ -1,7 +1,7 @@
 - name: Bursary
   std_price: 105
   queuejump_price: 115
-  description: Available to Girton students on the Cambridge Bursary Scheme and applicants for financial support in Michaelmas 2023. Only available until 23rd of November
+  description: Available to Girton students on the Cambridge Bursary Scheme and applicants for financial support in Michaelmas 2023. Only available until 23rd November.
 - name: Girton
   std_price: 145
   queuejump_price: 160
@@ -9,7 +9,7 @@
 - name: Guest
   std_price: 160
   queuejump_price: 175
-  description: Available to guests of students, fellows, and staff at Girton College.
+  description: Available to guests of students, fellows, staff, and alumni at Girton College.
 - name: Alumni
   std_price: 160
   queuejump_price: 175
