@@ -14,8 +14,8 @@
   max-width: 40%;
 }
 
-body {
-  background-color: #065333;
+body, section{
+  background: linear-gradient(90deg, #12225F, #0A1443);
 }
 
 h1, h2, h3, h4, h5 {

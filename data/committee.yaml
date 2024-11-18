@@ -1,111 +1,90 @@
-- name: Daniel Sandell
-  position: Guest Experience President
-  email: ds2031@cam.ac.uk
-  icon: bi-balloon
-  img: x
-- name: Emily Clare-Hunt
-  position: Logistics President
-  email: ekc37@cam.ac.uk
-  icon: bi-truck
-  img: x
-- name: Jude Lipson
-  position: Junior Treasurer
-  email: jl2324@cam.ac.uk
-  icon: bi-piggy-bank
-  img: x
-- name: Lewis Wilkinson
-  position: Food & Drink
-  email: foodanddrink@girtonspringball.com
-  icon: bi-cup-hot
-  img: x
-- name: June See Chong
-  position: Food & Drink
-  email: foodanddrink@girtonspringball.com
-  icon: bi-cup-hot
-  img: x
-- name: Penelope Slater
-  position: Ents
-  email: ents@girtonspringball.com
-  icon: bi-star
-  img: x
-- name: Jessica Blanchflower
-  position: Ents
-  email: ents@girtonspringball.com
-  icon: bi-star
-  img: x
-- name: Isabella McLeod
-  position: Music
-  email: music@girtonspringball.com
-  icon: bi-music-note-beamed
-  img: x
-- name: Adam Titcombe
-  position: Music
-  email: music@girtonspringball.com
-  icon: bi-music-note-beamed
-  img: x
-- name: Luca Beltrame
-  position: Aesthetics
-  email: committee@girtonspringball.com
-  icon: bi-tree
-  img: x
-- name: Fiona Peddie
-  position: Aesthetics
-  email: committee@girtonspringball.com
-  icon: bi-tree
-  img: x
-- name: Amelia Treasure
-  position: Aesthetics
-  email: committee@girtonspringball.com
-  icon: bi-tree
-  img: x
-- name: Lauren Prince
-  position: Publicity
-  email: committee@girtonspringball.com
-  icon: bi-instagram
-  img: x
-- name: Elliot Hamilton-Croft
-  position: Graphics
-  email: committee@girtonspringball.com
-  icon: bi-image
-  img: x
-- name: Maddy Guha
-  position: Graphics
-  email: committee@girtonspringball.com
-  icon: bi-image
-  img: x
-- name: Yuvraj Dubey
-  position: IT & Ticketing
-  email: it@girtonspringball.com
-  icon: bi-terminal
-  img: x
-- name: Peter Jackson
-  position: IT & Ticketing
-  email: it@girtonspringball.com
-  icon: bi-terminal
-  img: x
-- name: Gabriel Kennedy
+- name: Anastasia Kreslavskaia
   position: Infrastructure & Logistics
-  email: committee@girtonspringball.com
+  email: ak2459@cam.ac.uk
   icon: bi-house
   img: x
-- name: Alex Upshall
+- name: Elzbieta Vokietaityte
   position: Infrastructure & Logistics
-  email: committee@girtonspringball.com
+  email: ev383@cam.ac.uk
   icon: bi-house
   img: x
-- name: Oyare Aneju
+- name: Joshua Brookes
   position: Safety & Security
-  email: committee@girtonspringball.com
+  email: jnb43@cam.ac.uk
   icon: bi-life-preserver
   img: x
-- name: Hattie Maddock
+- name: Oliver Minns
+  position: IT & Ticketing
+  email: om380@cam.ac.uk
+  icon: bi-terminal
+  img: x
+- name: Ishaan Agarwal
+  position: IT & Ticketing
+  email: ia457@cam.ac.uk
+  icon: bi-terminal
+  img: x
+- name: Derin Awujoola
   position: Personnel
-  email: committee@girtonspringball.com
+  email: aa2440@cam.ac.uk
   icon: bi-person-plus
   img: x
-- name: Isla Hammond
+- name: Amelia Layne
+  position: Aesthetics
+  email: asl60@cam.ac.uk
+  icon: bi-tree
+  img: x
+- name: Abby Soskind
+  position: Aesthetics
+  email: as3500@cam.ac.uk
+  icon: bi-tree
+  img: x
+- name: Annabelle Corlett
+  position: Food & Drink
+  email: ac2420@cam.ac.uk
+  icon: bi-cup-hot
+  img: x
+- name: Emily Burke
+  position: Food & Drink
+  email: eb991@cam.ac.uk
+  icon: bi-cup-hot
+  img: x
+- name: Francisc Vladovici-Poplauschi
+  position: Ents
+  email: fev28@cam.ac.uk
+  icon: bi-star
+  img: x
+- name: Addison Mitchell
+  position: Ents
+  email: ajm366@cam.ac.uk
+  icon: bi-star
+  img: x
+- name: Chiara Falls
+  position: Music
+  email: cf605@cam.ac.uk
+  icon: bi-music-note-beamed
+  img: x
+- name: Myriam Lowe
+  position: Music
+  email: mfl43@cam.ac.uk
+  icon: bi-music-note-beamed
+  img: x
+- name: Izzy Chadwick
+  position: Publicity
+  email: irc29@cam.ac.uk
+  icon: bi-instagram
+  img: x
+- name: Gracie MacLean
+  position: Graphics
+  email: gm770@cam.ac.uk
+  icon: bi-image
+  img: x
+- name: Zerlynde Goik
+  position: Graphics
+  email: zg316@cam.ac.uk
+  icon: bi-image
+  img: x
+- name: Lizzie McDermott
   position: Diversity & Sustainability
-  email: gsb24accessibility@gmail.com
+  email: em913@cam.ac.uk
   icon: bi-clipboard-heart
   img: x
-
