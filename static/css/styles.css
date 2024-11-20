@@ -14,19 +14,34 @@
   src: url('/fonts/BestaBaru-8OaO0.ttf') format('truetype');
 }
 
-@media (max-width: 1000px){
-  .heading {
-    font-family: "BestaBaru", serif;
-    color: #e9be7a;
-    font-size: small;
+@media (max-width: 767px) {
+  .header-nav {
+    width: 50%;
+    flex-direction: column;
+  }
+
+  .header-nav:nth-child(n) {
+    width: 100%;
+  }
+  
+  .header-nav > :nth-child(n) {
+    width: 100%;
+    text-align: center;
+  }
+
+  #socials {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
   }
 }
+
 
 .heading {
   font-family: "BestaBaru", serif;
   color: #e9be7a;
   letter-spacing: 0.2em; 
-  font-size: 7em;
+  font-size: 8vw;
 }
 
 .centered-header {
