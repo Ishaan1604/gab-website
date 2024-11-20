@@ -4,6 +4,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url("https://fonts.cdnfonts.com/css/helvetica-neue-9");
 
+@font-face {
+  font-family: "Coffee-tin";
+  src: url('/fonts/CoffeetinInitials-YXJ2.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "BestaBaru";
+  src: url('/fonts/BestaBaru-8OaO0.ttf') format('truetype');
+}
+
 .centered-header {
   max-width: 700px;
 }
@@ -18,18 +28,20 @@ body, section{
   background: linear-gradient(90deg, #790000, #5f0000);
 }
 
-h1, h2, h3, h4, h5 {
+h2, h3, h4, h5 {
   font-family: "Playfair Display", serif;
-  color: #ffffff;
+  color: #fcffdc;
 }
 
 h1 {
     text-transform: uppercase;
+    font-family: "BestaBaru", serif;
+    color: #e9be7a;
 }
 
 p {
     font-family: "Playfair Display", serif;
-    color: #ffffff;
+    color: #fcffdc;
 }
 a {
     color: #bcbefa;
@@ -41,12 +53,12 @@ a {
 ul {
     list-style: none;
     font-family: "Playfair Display", serif;
-    color: #ffffff;
+    color: #fcffdc;
 }
 
 li::marker {
     font-family: "Playfair Display", serif;
-    color: #ffffff;
+    color: #fcffdc;
 }
 
 
@@ -73,8 +85,8 @@ li::marker {
 }
 
 .custom-borders-inbetween{
-    border-right: 2px solid #ffffff;
-    border-left: 2px solid #ffffff;
+    border-right: 2px solid #fcffdc;
+    border-left: 2px solid #fcffdc;
 
 }
 
