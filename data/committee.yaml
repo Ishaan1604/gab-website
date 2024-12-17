@@ -38,6 +38,11 @@
   email: as3500@cam.ac.uk
   icon: bi-tree
   img: x
+- name: Alice Coyle
+  position: Aesthetics
+  email: ac2633@cam.ac.uk
+  icon: bi-tree
+  img: x
 - name: Annabelle Corlett
   position: Food & Drink
   email: ac2420@cam.ac.uk
@@ -88,3 +93,15 @@
   email: em913@cam.ac.uk
   icon: bi-clipboard-heart
   img: x
+- name: Lara Hynes
+  position: Guest Experience President
+  email: lh845@cam.ac.uk
+  icon: bi-balloon
+  img: x
+- name: Lily Brooke
+  position: Logistics President
+  email: lab208@cam.ac.uk
+  icon: bi-truck
+  img: x
+- name: Thomas Coates
+  position: Tr
